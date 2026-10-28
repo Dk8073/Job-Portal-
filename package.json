@@ -1,0 +1,12 @@
+{
+  "name": "job_portal",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix server && npm install --prefix client && npm run build --prefix client",
+    "start": "npm run start --prefix server" 
+  },
+  "author": "Bhaskar Jha",
+  "license": "ISC",
+  "description": "A job portal application that allows users to explore and apply for job postings while also enabling them to save their favorite opportunities for future reference."
+}
